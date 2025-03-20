@@ -32,16 +32,22 @@
                 HorizontalOptions="Fill" />
             <Button
                     x:Name="CounterBtn_1"
-                    Text="Click me" 
-                    SemanticProperties.Hint="New Buutoon"
-                    Clicked="SHow_Flyout"
+                    Text="Flyout Layout" 
+                    SemanticProperties.Hint="Flyout Layout Demo"
+                    Clicked="Flyout_Clicked"
                     HorizontalOptions="Fill" />
             <Button
                 x:Name="CounterBtn_2"
-                Text="Click me" 
-                SemanticProperties.Hint="New Buutoon1"
+                Text="Flex Layout" 
+                SemanticProperties.Hint="FLex Layout  Demo"
                 Clicked="FlexDemo_Clicked"
                 HorizontalOptions="Fill" />
+            <Button 
+                Text="Absolute Layout" 
+                SemanticProperties.Hint="Absolute Layout Demo"
+                Clicked="FlexButton_Clicked"
+                HorizontalOptions="Fill"/>
+
         </VerticalStackLayout>
     </ScrollView>
 

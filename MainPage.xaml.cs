@@ -26,13 +26,18 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
-        private void SHow_Flyout(object sender, EventArgs e)
+        private void Flyout_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ContetPageTest());
         }
         private void FlexDemo_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new FlexDemo());
+        }
+
+        private void FlexButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AbsoluteLayoutDemo());
         }
     }
 
